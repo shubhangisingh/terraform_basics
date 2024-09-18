@@ -4,7 +4,7 @@ provider "google" {
 }
 
 resource "google_storage_bucket" "bucket" {
-  name     = "my-new-terraform-bucket"  # This must be globally unique
+  name     = "my-new-terraform-bucket1"  # This must be globally unique
   location = "US"  # Multi-regional location or specific region
 
 }
